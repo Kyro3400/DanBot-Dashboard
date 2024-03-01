@@ -6,7 +6,7 @@ client.config = require("./config.js");
 client.logger = require("./modules/Logger");
 
 process.on('uncaughtException', function (err) {
-  client.channels.get("563473333069414400").send(`Got disconnected from discord, Reconnecting...`);
+  client.channels.get("1213270692817281025").send(`Got disconnected from discord, Reconnecting...`);
 })
 
 const init = async () => {
